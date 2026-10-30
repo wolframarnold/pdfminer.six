@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pdfminer.six"
-dynamic = ["version"]
+version = "20260107.post1"
 description = "PDF parser and analyzer"
 readme = "README.md"
 license = "MIT"
@@ -70,8 +70,6 @@ script-files = [
     "tools/pdf2txt.py",
     "tools/dumppdf.py",
 ]
-
-[tool.setuptools_scm]
 
 [tool.ruff]
 target-version = "py310"
